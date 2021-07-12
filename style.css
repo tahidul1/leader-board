@@ -1,0 +1,344 @@
+/* ------------------------------
+        fonts 
+--------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@1,600&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+/* ------------------------------
+        normalize css 
+--------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+h3, h2, h4 {
+    margin: 0;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    background: #E5E5E5;
+}
+
+main {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+hr {
+    border-color: #D1D1D1;
+}
+
+/* ------------------------------
+        utilities css 
+--------------------------------- */
+.container {
+    max-width: 870px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-wrapper {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.section-title {
+    color: #562EFF;
+    margin-bottom: 40px;
+    line-height: 36px;
+}
+
+/* ------------------------------
+            header area css 
+--------------------------------- */
+.header {
+    background: #562EFF;
+    padding: 15px 0;
+}
+
+.menu-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 35px;
+}
+
+.menu li a {
+    display: block;
+    color: #fff;
+}
+
+.menu li a img {
+    display: block;
+}
+
+
+/* ------------------------------
+            player area css 
+--------------------------------- */
+.player-blog {
+    margin-bottom: 20px;
+}
+
+.palyer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 30px;
+}
+
+.player-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.player-wrapper img {
+    width: 56px;
+    height: 56px;
+    margin-right: 15px;
+}
+
+
+/* ------------------------------
+            blog area css 
+--------------------------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 62px;
+    grid-row-gap: 25px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog-thumbnail img {
+    width: 177px;
+    height: 117px;
+    margin-right: 15px;
+    display: block;
+}
+
+.blog-info a {
+    color: #562EFF;
+}
+
+.blog-info p {
+    color: #9F9F9F;
+}
+
+/* ------------------------------
+            course area css 
+--------------------------------- */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 23px;
+}
+
+.course-thumbnail img {
+    margin-bottom: 20px;
+}
+
+.course-content h3 {
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.course-content a {
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.rating {
+    font-size: 14px;
+}
+
+.rating i {
+    color: #FFC014;
+}
+
+.rating i:last-child {
+    color: #AEAEAE;
+    opacity: .25;
+}
+
+span.rate {
+    color: #A2A2A2;
+    margin-left: 10px;
+}
+
+.duration {
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    padding: 3px 8px;
+}
+
+.duration p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FF4A60;
+}
+
+/* ------------------------------
+        footer area css 
+--------------------------------- */
+
+.footer {
+    background: #562EFF;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer a {
+    color: #dedede;
+}
+
+
+/* ------------------------------
+        responsive css 
+--------------------------------- */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    .menu-area {
+        flex-direction: column;
+    }
+    .palyer, 
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player-wrapper,
+    .blog {
+        flex-direction: column;
+    }
+    .player-wrapper img {
+        margin-right: 0;
+    }
+    .blog img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .blog-info {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .menu li {
+        margin: 0 13px;
+    }
+    span.rate {
+        margin-left: 5px;
+    }
+    .duration p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
